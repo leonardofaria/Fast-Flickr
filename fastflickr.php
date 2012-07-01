@@ -2,7 +2,7 @@
 /*
 Plugin Name: Fast Flickr
 Version: 1.0
-Plugin URI: http://www.leonardofaria.net/2006/06/24/fast-flickr/
+Plugin URI: http://leonardofaria.net/2012/07/01/wordpress-plugin-fast-flickr/
 Description: Plugin that shows Flickr sets in a lightbox window Usage: [fastflickr set=SET NUMBER]
 Author: Leonardo Faria
 Author URI: http://www.leonardofaria.net
@@ -45,7 +45,7 @@ function fastflickr_func($atts) {
 		$output .= "<a href='{$full_url}' rel='gallery' title='{$title}' class='lightbox'><img alt='{$title}' src='{$thumb_url}'/></a> ";
 	}
 
-	echo $output;
+	return $output;
 }
 
 add_action('wp_print_scripts', 'enqueue_fastflickr_scripts');

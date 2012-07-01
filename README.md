@@ -9,16 +9,16 @@ A Wordpress plugin that shows Flickr sets in a lightbox window
 2. Active the plugin
 3. Use in your posts or pages:
 
-[fastflickr set=72157601301692474]
+[fastflickr set=SET ID]
 
 4. An exemple:
 
-[fastflickr set=72157601301692474]
+[fastflickr set=72157630371382464]
 
 This code will show my photos :)
 
 
-## THANKS:
+## LIGHTBOX EFFECT:
 
 http://www.ssdtutorials.com/tutorials/series/ssdlight-jquery-lightbox.html
 
